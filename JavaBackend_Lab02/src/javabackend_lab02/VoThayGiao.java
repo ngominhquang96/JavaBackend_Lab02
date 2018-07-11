@@ -16,15 +16,15 @@ public class VoThayGiao {
     
     private VoThayGiao(){
     }
-    private static VoThayGiao objectThayGiao;
+    private static VoThayGiao objectVoThayGiao;
     public static VoThayGiao getVoThayGiao(){
         if(count >0){
-            objectThayGiao = new VoThayGiao();
+            objectVoThayGiao = new VoThayGiao();
             count--;
         }else{
             System.out.println("chinh la ba vo thu 3 cua ong thay giao duoc khoi tao");
         }
-        return objectThayGiao;
+        return objectVoThayGiao;
     }
     
 }
